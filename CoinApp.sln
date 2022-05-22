@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinCashBack.Server", "CoinCashBack\Server\CoinCashBack.Server.csproj", "{5EAA42B8-7EFC-456D-8106-01D3517FC30C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinCashBack.Client", "CoinCashBack\Client\CoinCashBack.Client.csproj", "{01C5655E-B2D3-4AFC-8E19-98F42FAA26CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinCashBack.Shared", "CoinCashBack\Shared\CoinCashBack.Shared.csproj", "{91F3C997-5951-4A42-8958-87D999CDF01A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinCashBack.Domain", "CoinCashBack.Domain\CoinCashBack.Domain.csproj", "{9FE952B1-2E80-4810-87B7-101DA3B9C5D4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EAA42B8-7EFC-456D-8106-01D3517FC30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAA42B8-7EFC-456D-8106-01D3517FC30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAA42B8-7EFC-456D-8106-01D3517FC30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAA42B8-7EFC-456D-8106-01D3517FC30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C5655E-B2D3-4AFC-8E19-98F42FAA26CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C5655E-B2D3-4AFC-8E19-98F42FAA26CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C5655E-B2D3-4AFC-8E19-98F42FAA26CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C5655E-B2D3-4AFC-8E19-98F42FAA26CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F3C997-5951-4A42-8958-87D999CDF01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F3C997-5951-4A42-8958-87D999CDF01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F3C997-5951-4A42-8958-87D999CDF01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F3C997-5951-4A42-8958-87D999CDF01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE952B1-2E80-4810-87B7-101DA3B9C5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE952B1-2E80-4810-87B7-101DA3B9C5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE952B1-2E80-4810-87B7-101DA3B9C5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE952B1-2E80-4810-87B7-101DA3B9C5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
