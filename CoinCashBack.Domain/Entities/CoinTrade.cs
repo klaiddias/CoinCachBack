@@ -10,10 +10,7 @@ namespace CoinCashBack.Domain.Entities
     public class CoinTrade
     {
         public Guid Id { get; init; }
-        private Name Name { get; init; }
-        private Acronyms _acronyms;
-        private Price _buyPrice;
-        private Exchange _exchange;
+
 
         public Price? Price { get; }
         public Quantity Quantity { get; set; } = 0;
