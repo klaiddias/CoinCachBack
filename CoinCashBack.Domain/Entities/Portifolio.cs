@@ -1,4 +1,5 @@
-﻿using CoinCashBack.Domain.ValueObject;
+﻿using CoinCashBack.Domain.Exceptions;
+using CoinCashBack.Domain.ValueObject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,8 @@ namespace CoinCashBack.Domain.Entities
             {
                 throw new CCB_CoinAlreadyExistsException();
             }
+
+            _coins.Add(coin)
         
         }
     }

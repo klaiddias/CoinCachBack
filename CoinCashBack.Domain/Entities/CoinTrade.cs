@@ -11,19 +11,14 @@ namespace CoinCashBack.Domain.Entities
     {
         public Guid Id { get; init; }
 
+        private Price _sellPrice = 0;
+        private Exchange _exchange;
+        private DateOnly _sellDate;
 
-        public Price? Price { get; }
-        public Quantity Quantity { get; set; } = 0;
-        public DateOnly? DateOnly { get; set; }
-        public Price? _sellPrice { get; set; }
-        public DateOnly? _sellDate { get; set; }
 
-        internal CoinTrade(Guid id, Name _name, Acronyms acronyms,  Exchange exchange)
+        internal CoinTrade()
         {
             Id = id;
-            Name = _name;
-            _acronyms = acronyms;
-            Price = price;
         }
     }
 }
